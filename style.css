@@ -1,5 +1,6 @@
 body { 
   font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 ul {
   list-style: none;
@@ -77,6 +78,7 @@ small {
   font-size: 15px;
   margin: 0 30px 10px;
   text-align: right;
+  display: block;
 }
 ol { 
 margin: 14px 0; 
@@ -105,6 +107,7 @@ ol li {
 }
 #text-block {
   height: 370px;
+  padding-left: 40px;
 }
 .pictures li img {
   border: 2px solid #b9b1bf;
@@ -117,9 +120,6 @@ ol li {
 .bigimg{
   display: inline;
 }
-.pictures li : first-child {
+.pictures li:first-child {
   margin-left: 5px;
 }
-
-
-    
